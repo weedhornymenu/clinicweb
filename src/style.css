@@ -1,0 +1,51 @@
+:root {
+  --green: #17392c;
+  --green-soft: #2e5c46;
+  --gold: #b9975b;
+  --text: #22392f;
+  --muted: #5d6f65;
+  --line: #e4eae6;
+  --serif: 'Playfair Display', 'Noto Serif Thai', Georgia, serif;
+  --sans: 'Inter', 'Noto Sans Thai', system-ui, -apple-system, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--sans);
+  color: var(--text);
+  background: #ffffff;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  font-family: inherit;
+}
+
+section {
+  scroll-margin-top: 96px;
+}
+
+.container {
+  width: min(1200px, 100% - 48px);
+  margin-inline: auto;
+}
